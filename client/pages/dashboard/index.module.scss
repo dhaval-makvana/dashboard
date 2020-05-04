@@ -1,0 +1,58 @@
+@import "../../components/defines.scss";
+
+.page {
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(29rem, 1fr));
+  grid-gap: 3rem;
+  margin: 3rem;
+  min-height: calc(100vh - 43rem);
+  overflow: hidden;
+
+  @include md {
+    margin: 2rem 8rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+
+  @include lg {
+    margin: 2rem 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  }
+}
+
+.scrollTop {
+  z-index: 2;
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  height: 12rem;
+  width: 12rem;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: aliceblue;
+  cursor: pointer;
+
+  @include lg {
+    bottom: 4rem;
+    right: 4rem;
+    height: 6rem;
+    width: 6rem;
+    padding: 1rem;
+  }
+}
+
+.scrollTopIcon {
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../../icons/upload.svg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}

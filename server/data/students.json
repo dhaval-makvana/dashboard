@@ -1,0 +1,1978 @@
+[
+    {
+        "id": 1,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ruthvik",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 80
+            },
+            {
+                "name": "Science",
+                "marks": 89
+            },
+            {
+                "name": "Social Science",
+                "marks": 93
+            },
+            {
+                "name": "English",
+                "marks": 70
+            },
+            {
+                "name": "Hindi",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Ruthvik",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 80
+            },
+            {
+                "name": "Science",
+                "marks": 89
+            },
+            {
+                "name": "Social Science",
+                "marks": 93
+            },
+            {
+                "name": "English",
+                "marks": 70
+            },
+            {
+                "name": "Hindi",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Ruthvik",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 80
+            },
+            {
+                "name": "Science",
+                "marks": 89
+            },
+            {
+                "name": "Social Science",
+                "marks": 93
+            },
+            {
+                "name": "English",
+                "marks": 70
+            },
+            {
+                "name": "Hindi",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Ruthvik",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 80
+            },
+            {
+                "name": "Science",
+                "marks": 89
+            },
+            {
+                "name": "Social Science",
+                "marks": 93
+            },
+            {
+                "name": "English",
+                "marks": 70
+            },
+            {
+                "name": "Hindi",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Ruthvik",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 80
+            },
+            {
+                "name": "Science",
+                "marks": 89
+            },
+            {
+                "name": "Social Science",
+                "marks": 93
+            },
+            {
+                "name": "English",
+                "marks": 70
+            },
+            {
+                "name": "Hindi",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Ruthvik",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 80
+            },
+            {
+                "name": "Science",
+                "marks": 89
+            },
+            {
+                "name": "Social Science",
+                "marks": 93
+            },
+            {
+                "name": "English",
+                "marks": 70
+            },
+            {
+                "name": "Hindi",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "dhaval",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 90
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 60
+            },
+            {
+                "name": "Hindi",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Rushin Contractor",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 95
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Anshul Bhatt",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 96
+            },
+            {
+                "name": "Social Science",
+                "marks": 97
+            },
+            {
+                "name": "English",
+                "marks": 76
+            },
+            {
+                "name": "Hindi",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Rahul Rajput",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 85
+            },
+            {
+                "name": "Science",
+                "marks": 88
+            },
+            {
+                "name": "Social Science",
+                "marks": 89
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Harsh Gameti",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 82
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 67
+            },
+            {
+                "name": "Hindi",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Shumbham Dewangan",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 98
+            },
+            {
+                "name": "Science",
+                "marks": 82
+            },
+            {
+                "name": "Social Science",
+                "marks": 91
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Raj Amin",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 95
+            },
+            {
+                "name": "Science",
+                "marks": 85
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 77
+            },
+            {
+                "name": "Hindi",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Yash Kotak",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 90
+            },
+            {
+                "name": "English",
+                "marks": 80
+            },
+            {
+                "name": "Hindi",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Saichand K",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 99
+            },
+            {
+                "name": "Science",
+                "marks": 98
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 94
+            },
+            {
+                "name": "Hindi",
+                "marks": 60
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Sethu",
+        "subjects": [
+            {
+                "name": "Maths",
+                "marks": 100
+            },
+            {
+                "name": "Science",
+                "marks": 99
+            },
+            {
+                "name": "Social Science",
+                "marks": 95
+            },
+            {
+                "name": "English",
+                "marks": 95
+            },
+            {
+                "name": "Hindi",
+                "marks": 66
+            }
+        ]
+    }
+]
