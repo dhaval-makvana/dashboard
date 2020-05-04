@@ -31,12 +31,16 @@ const fetchStudentDetails = (id) => async dispatch => {
     params: { id }
   })
 
+  console.log("res", res);
+
   try {
     student = res.data.data;
     loading = false;
   } catch (error) {
     error = true;
   }
+
+  console.log("action", student);
 
   const payload = { loading, student, error};
   return dispatch({ type: FETCH_STUDENT_DETAILS, payload });

@@ -8,4 +8,49 @@
 
 .container {
   margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include md {
+
+  }
+
+  @include lg {
+    flex-direction: row;
+  }
+}
+
+.details {
+  flex-basis: 30%;
+  height: 100%;
+
+  .name {
+    font-size: 3rem;
+    border-bottom: 1px solid orange;
+    margin-bottom: 3rem;
+  }
+
+  .id {
+    font-size: 2.2rem;
+    margin: 1.4rem 0;
+  }
+
+  .marks {
+    font-size: 2.2rem;
+    margin: 1.4rem 0;
+  }
+}
+
+.graph {
+  height: 30rem;
+  width: 100%;
+
+  @include md {
+
+  }
+
+  @include lg {
+
+  }
 }

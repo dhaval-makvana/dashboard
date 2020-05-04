@@ -1,6 +1,7 @@
 // Webpack uses this to work with directories
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
 // This is main configuration object.
 // Here you write different options and tell Webpack what to do
@@ -76,6 +77,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin()
+    new webpack.ContextReplacementPlugin(/\.\/locale$/, 'empty-module', false, /js$/),
+    new HtmlWebpackPlugin(),
   ]
 };

@@ -3,6 +3,7 @@ import DetailsPage from './details';
 import { connect } from 'react-redux';
 
 function mapStateToProps(state) {
+  console.log("state",state.app.studentDetails);
   return {
     ...state.app.studentDetails
   }

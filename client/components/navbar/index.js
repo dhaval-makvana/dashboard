@@ -5,8 +5,9 @@ import Searchbar from '../searchbar';
 
 export default (props) => {
   const { handleSearch, showSearchbar, showSort, sortByName, sortByMarks } = props;
+  const conditionalStyle = showSearchbar || showSort ? {} : styles.showExtras;
   return (
-    <div className={styles.navbar}>
+    <div className={`${styles.navbar} ${conditionalStyle}`} >
       <div className={styles.navitem}>
         <NavLink to="/">
           <img src="https://assets.embibe.com/production/Consumer/assets/images/common/embibefullLogo.svg" alt="logo" />

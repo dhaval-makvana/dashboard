@@ -3,9 +3,10 @@
 //mobile first design
 .navbar {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 15rem;
+  height: 28rem;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 10px 8px -8px #ddd;
@@ -15,18 +16,20 @@
   @include md {
     height: 10rem;
     padding: 0 3rem;
+    flex-direction: row;
   }
 
   @include lg {
     height: 8rem;
     justify-content: flex-start;
     padding: 0 5rem;
+    flex-direction: row;
   }
 }
 
 .navitem {
   width: 20rem;
-  height: 12rem;
+  height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +45,7 @@
     line-height: 1.6rem;
     letter-spacing: 2px;
     cursor: pointer;
+    margin: 1rem;
   }
 
   @include md {
@@ -50,5 +54,17 @@
 
   @include lg {
     height: 7rem;
+  }
+}
+
+.showExtras {
+  height: 12rem !important;
+
+  @include md {
+    height: 10rem !important;
+  }
+
+  @include lg {
+    height: 8rem !important;
   }
 }

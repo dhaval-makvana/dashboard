@@ -3,25 +3,24 @@
 .card {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   background-color: #f9f9f9;
-  height: 50rem;
-  width: 50rem;
+  height: 30rem;
+  width: 100%;
   padding: 2rem;
   font-weight: 500;
-  // border: 1px solid black;
 
   &:hover {
     cursor: pointer;
   }
 
   @include md {
-    height: 30rem;
+    height: 16rem;
     width: 30rem;
     padding: 1rem;
     margin: auto;
   }
 
   @include lg {
-    width: 37rem;
+    width: 30rem;
     height: 20rem;
     padding: 3rem;
     margin: auto;

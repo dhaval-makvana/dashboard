@@ -28,15 +28,19 @@ router.get('/dashboard', function(req, res, next) {
 /** GET single student details. */
 router.get('/', async function(req, res, next) {
   const { id } = req.query;
-  let product = {};
+  let student = {};
+
+  console.log("student", student);
+  console.log("req.query", req.query);
+
   await parsedData.map((p) => {
     if (p.id == id) {
-      product = p;
+      student = p;
     }
   });
 
   res.send({
-    data: product,
+    data: student,
     status: 'OK',
     code: 200
   });
