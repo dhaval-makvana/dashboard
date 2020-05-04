@@ -46,15 +46,24 @@ class DashboardPage extends Component {
   }
 
   render() {
-    const {loading, hasMore, students, error, history, sortByName, sortByMarks } = this.props;
+    const {loading, hasMore, students, error, history, sortByName, sortByMarks, sortType, sortedByTotalMarks, sortedByNames } = this.props;
+
+    let studentsMap;
+    if (sortType === "name") {
+      studentsMap = sortedByNames;
+    } else if (sortType === "totalMarks") {
+      studentsMap = sortedByTotalMarks;
+    } else {
+      studentsMap = students;
+    }
 
     return(
       <div className={styles.page}>
       <ScrollToTopController>
         <Navbar handleSearch={this.handleSearch} showSearchbar={true} showSort={true} sortByName={sortByName} sortByMarks={sortByMarks} />
         <div className={styles.grid}>
-          {students.map((s, index) => {
-            if (students.length === index + 1) {
+          {studentsMap.map((s, index) => {
+            if (studentsMap.length === index + 1) {
               return <StudentCard {...s} key={s.id} history={history} ref={this.lastStudentElementRef} />;
             } else {
               return <StudentCard {...s} history={history} key={s.id} />;

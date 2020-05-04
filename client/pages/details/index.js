@@ -87,7 +87,7 @@ class DetailsPage extends Component {
     });
     return (
       <div className={styles.page}>
-        <Navbar />
+        <Navbar showLogin={true} />
         <div className={styles.container}>
           <div className={styles.details}>
             <div className={styles.name}>{name}</div>

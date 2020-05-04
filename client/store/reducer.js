@@ -95,7 +95,8 @@ const reducer = (state = initialState, action) => {
         dashboard: {
           ...state.dashboard,
           students: sortedByTotalMarks,
-          sortType: 'totalMarks'
+          sortType: 'totalMarks',
+          sortedByTotalMarks: sortedByTotalMarks
         }
       }
     
@@ -109,7 +110,8 @@ const reducer = (state = initialState, action) => {
         dashboard: {
           ...state.dashboard,
           students: sortedByNames,
-          sortType: 'name'
+          sortType: 'name',
+          sortedByNames: sortedByNames
         }
       }
   
