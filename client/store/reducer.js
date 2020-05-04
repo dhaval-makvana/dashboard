@@ -2,6 +2,8 @@ import { FETCH_DASHBOARD_DATA, FETCH_STUDENT_DETAILS, SORT_BY_MARKS, SORT_BY_NAM
 import { combineReducers } from 'redux';
 import { sortAlphabetically, sortNumerically } from '../utils/index';
 
+/** reducer can be made much more better with smaller functions but due to lack of time couldn't make it. */
+
 const initialState = {
   dashboard: {
     loading: true,
@@ -48,10 +50,11 @@ const reducer = (state = initialState, action) => {
         return s;
       });
 
-      console.log("modifiedState", modifiedStudents);
+      const modifiedStudentsAlphabetically = [...modifiedStudents];
+      const modifiedStudentsNumerically = [...modifiedStudents];
 
-      const sortName = sortAlphabetically(modifiedStudents, "name");
-      const sortMarks = sortNumerically(modifiedStudents, "totalMarks");
+      const sortName = sortAlphabetically(modifiedStudentsAlphabetically, "name");
+      const sortMarks = sortNumerically(modifiedStudentsNumerically, "totalMarks");
       
       const hasMore = students.length > 0;
 
@@ -86,32 +89,30 @@ const reducer = (state = initialState, action) => {
       }
     
     case SORT_BY_MARKS:
-      const { sortedByTotalMarks } = state.dashboard;
+      let changedMarks = [...state.dashboard.sortedByTotalMarks];
       if (state.dashboard.sortType === 'totalMarks') {
-        sortedByTotalMarks.reverse();
+        changedMarks = changedMarks.reverse();
       }
       return {
         ...state,
         dashboard: {
           ...state.dashboard,
-          students: sortedByTotalMarks,
           sortType: 'totalMarks',
-          sortedByTotalMarks: sortedByTotalMarks
+          sortedByTotalMarks: changedMarks
         }
       }
     
     case SORT_BY_NAME:
-      const { sortedByNames } = state.dashboard;
+      let changedNames = [...state.dashboard.sortedByNames];
       if (state.dashboard.sortType === 'name') {
-        sortedByNames.reverse();
+        changedNames = changedNames.reverse();
       }
       return {
         ...state,
         dashboard: {
           ...state.dashboard,
-          students: sortedByNames,
           sortType: 'name',
-          sortedByNames: sortedByNames
+          sortedByNames: changedNames
         }
       }
   

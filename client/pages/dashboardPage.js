@@ -3,7 +3,6 @@ import DashboardPage from './dashboard';
 import { connect } from 'react-redux';
 
 function mapStateToProps(state) {
-  console.log("state", state.app.dashboard);
   return {
     ...state.app.dashboard
   }
