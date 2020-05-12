@@ -9,9 +9,9 @@ const AppRouter = () => {
     <BrowserRouter>
       <Switch>
         <Suspense fallback={<div>...loading</div>}>
+          <Route exact path="/login" component={LoginPage} />
           <Route exact path='/' component={DashboardPage} />
           <Route exact path='/:id' component={DetailsPage} />
-          <Route exact path="/login" component={LoginPage} />
         </Suspense>
       </Switch>
     </BrowserRouter>

@@ -25,7 +25,8 @@ class DetailsPage extends Component {
     if (!student) {
       return null;
     }
-    const { name, id, totalMarks, subjects } = student;
+    const { name, student_id, totalMarks, marks } = student;
+    console.log("details page", student);
 
 
     /** Chart config starts */
@@ -49,7 +50,10 @@ class DetailsPage extends Component {
               labelString: 'Marks'
             },
             ticks: {
-              beginAtZero:true
+              beginAtZero:true,
+              maxTicksLimit: 11,
+              stepSize: 5,
+              suggestedMax: 50
             }
           }]
         }
@@ -81,18 +85,24 @@ class DetailsPage extends Component {
     /** Chart Config ends */
 
 
-    subjects.map((subject) => {
-      BAR_CHART_CONFIG.data.labels.push(subject.name);
-      BAR_CHART_CONFIG.data.datasets[0].data.push(subject.marks);
-    });
+    // subjects.map((subject) => {
+    //   BAR_CHART_CONFIG.data.labels.push(subject.name);
+    //   BAR_CHART_CONFIG.data.datasets[0].data.push(subject.marks);
+    // });
+
+    for(let key in marks) {
+      BAR_CHART_CONFIG.data.labels.push(key);
+      BAR_CHART_CONFIG.data.datasets[0].data.push(marks[key]);
+    }
+
     return (
       <div className={styles.page}>
         <Navbar showLogin={true} />
         <div className={styles.container}>
           <div className={styles.details}>
             <div className={styles.name}>{name}</div>
-            <div className={styles.id}>ID: {id}</div>
-            <div className={styles.marks}>Total Marks: {totalMarks}/500</div>
+            <div className={styles.id}>ID: {student_id}</div>
+            <div className={styles.marks}>Total Marks: {totalMarks}/150</div>
           </div>
           <div className={styles.graph}>
             <Chart input={BAR_CHART_CONFIG} />

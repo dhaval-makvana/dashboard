@@ -11,5 +11,6 @@ function mapStateToProps(state) {
 export default connect(mapStateToProps, {
   fetchDashboardData :actions.fetchDashboardData,
   sortByName: actions.sortByName,
-  sortByMarks: actions.sortByMarks
+  sortByMarks: actions.sortByMarks,
+  searchStudentByName: actions.searchStudentByName,
 })(DashboardPage);

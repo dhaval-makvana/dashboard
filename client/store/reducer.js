@@ -1,8 +1,13 @@
-import { FETCH_DASHBOARD_DATA, FETCH_STUDENT_DETAILS, SORT_BY_MARKS, SORT_BY_NAME } from './types';
+import { FETCH_DASHBOARD_DATA, FETCH_STUDENT_DETAILS, SORT_BY_MARKS, SORT_BY_NAME, SEARCH_STUDENTS_BY_NAME } from './types';
 import { combineReducers } from 'redux';
 import { sortAlphabetically, sortNumerically } from '../utils/index';
 
-/** reducer can be made much more better with smaller functions but due to lack of time couldn't make it. */
+/**
+ * Reducer is not modular.
+ * A lot of code can be made into functions and put in a utils file.
+ * Due to lack of time I am not doing that.
+ * Apart from that I have tried my best to keep the code modular and use a folder structure that I'd usually use.
+ */
 
 const initialState = {
   dashboard: {
@@ -10,6 +15,7 @@ const initialState = {
     error: false,
     hasMore: false,
     students: [],
+    filteredStudents: [],
     query: '',
     sortedByTotalMarks: [],
     sortedByNames: [],
@@ -30,7 +36,22 @@ const reducer = (state = initialState, action) => {
         ...state.studentDetails.studentsByIds
       };
       students.map((student) => {
-        studentsByIds[student.id] = student
+
+        const newStudent = {
+          ...student,
+          marks: {
+            ...student.marks
+          }
+        };
+
+        let total = 0;
+        for(let key in newStudent.marks) {
+          newStudent.marks[key] = Math.round(newStudent.marks[key]); 
+          total += newStudent.marks[key];
+        }
+        newStudent["totalMarks"] = total;
+
+        studentsByIds[newStudent.student_id] = newStudent;
       });
       let modifiedStudents = [];
       if (query === state.dashboard.query) {
@@ -42,9 +63,10 @@ const reducer = (state = initialState, action) => {
       modifiedStudents = modifiedStudents.map((s) => {
         if (!s["totalMarks"]) {
           let total = 0;
-          s.subjects.map((subject) => {
-            total += subject.marks
-          });
+          for(let key in s.marks) {
+            s.marks[key] = Math.round(s.marks[key]); 
+            total += s.marks[key];
+          }
           s["totalMarks"] = total;
         } 
         return s;
@@ -65,6 +87,7 @@ const reducer = (state = initialState, action) => {
           ...action.payload,
           hasMore,
           students: modifiedStudents,
+          filteredStudents: modifiedStudents,
           sortedByNames: sortName,
           sortedByTotalMarks: sortMarks,
         },
@@ -76,6 +99,14 @@ const reducer = (state = initialState, action) => {
     
     case FETCH_STUDENT_DETAILS:
       const { student, loading, error } = action.payload;
+      let modifiedStudentData = { ...student };
+      let total = 0;
+      for(let key in student.marks) {
+        student.marks[key] = Math.round(student.marks[key]);
+        total += student.marks[key];
+      }
+      modifiedStudentData["totalMarks"] = total;
+
       return {
         ...state,
         studentDetails: {
@@ -83,7 +114,7 @@ const reducer = (state = initialState, action) => {
           error,
           studentsByIds: {
             ...state.studentDetails.studentsByIds,
-            [student.id] : student
+            [student.student_id] : modifiedStudentData
           }
         }
       }
@@ -113,6 +144,18 @@ const reducer = (state = initialState, action) => {
           ...state.dashboard,
           sortType: 'name',
           sortedByNames: changedNames
+        }
+      }
+
+    case SEARCH_STUDENTS_BY_NAME:
+      const { payload } = action;
+      const studentsArray = state.dashboard.students;
+      const filteredResults = studentsArray.filter(item => item.name.toLowerCase().startsWith(payload.toLowerCase()));
+      return {
+        ...state,
+        dashboard: {
+          ...state.dashboard,
+          filteredStudents: filteredResults
         }
       }
   
