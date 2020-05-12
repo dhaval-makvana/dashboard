@@ -10,13 +10,13 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone The repo
 
 ```
-git clone https://github.com/dhaval-makvana/product.git
+git clone https://github.com/dhaval-makvana/dashboard.git
 ```
 
 2. Install required dependencies
 
 ```
-cd product-list
+cd dashboard
 npm install
 ```
 
