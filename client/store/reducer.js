@@ -151,11 +151,17 @@ const reducer = (state = initialState, action) => {
       const { payload } = action;
       const studentsArray = state.dashboard.students;
       const filteredResults = studentsArray.filter(item => item.name.toLowerCase().startsWith(payload.toLowerCase()));
+      const filteredResultsName = [...filteredResults];
+      const filteredResultsMarks = [...filteredResults];
+      const fillingSortNames = sortAlphabetically(filteredResultsName, "name");
+      const fillingSortMarks = sortNumerically(filteredResultsMarks, "totalMarks");
       return {
         ...state,
         dashboard: {
           ...state.dashboard,
-          filteredStudents: filteredResults
+          filteredStudents: filteredResults,
+          sortedByNames: fillingSortNames,
+          sortedByTotalMarks: fillingSortMarks
         }
       }
   

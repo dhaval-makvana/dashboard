@@ -17,6 +17,7 @@ export const sortAlphabetically = (arr, key) => {
 };
 
 export const sortNumerically = (arr, key) => {
+	console.log("sort marks ?");
 	if (!key) {
 		return arr.sort((a, b) => a - b);
 	}
