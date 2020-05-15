@@ -38,6 +38,8 @@ class DashboardPage extends Component {
 			sortedByNames,
 		} = this.props;
 
+		console.log("props", this.props);
+
 		let studentsMap;
 		if (sortType === "name") {
 			studentsMap = sortedByNames;
